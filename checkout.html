@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/checkout.css">
+  <link rel="stylesheet" href="./styles/navbar.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+<!-- menu -->
+ <link rel="stylesheet" href="./styles/menu.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<!-- menu -->
+</head>
+
+<body>
+    <div id="navbar"></div>
+    <div class="checkout1">
+        <br>
+        <h1>CHECKOUT</h1><br><br>
+        <div id="pricetabflex">
+            <div id="homeadd">
+                <h1 style="margin: 30px 0px 80px 30px;">1.Billing Address</h1>
+               <div id="fis">First Name : <input id="first" type="text"></div>
+               <div>Last Name : <input id="last" type="text"></div>
+               <div>Phone No: <input id="phoneno" type="number"></div>
+               <div>Address: <input id="add" type="text"></div>
+               <div>City: <input id="city" type="text"></div>
+               <div>State: <input id="state" type="text"></div>
+               <div>Pincode: <input id="pincode" type="number"></div>
+               <p id="error"></p><br>
+               <button id="paymentbtn" onclick="address()">Proceed To Payment</button>
+            </div>
+            <div class="checkoutpart">
+                
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script src="./scripts/checkout.js"></script>
+</body>
+</html>
+<script type="module">
+
+    import navbar from "./components/navbar.js";
+   let nav = document.getElementById("navbar");
+    nav.innerHTML = navbar();
+
+    import footer from "./components/footer.js";
+  let foo = document.getElementById("footer");
+  foo.innerHTML=footer()
+
+  
+         $('#btn').click(function(){
+           $(this).toggleClass("click");
+           $('.sidebar').toggleClass("show");
+         });
+           $('.feat-btn').click(function(){
+             $('nav ul .feat-show').toggleClass("show");
+             $('nav ul .first').toggleClass("rotate");
+           });
+           $('.serv-btn').click(function(){
+             $('nav ul .serv-show').toggleClass("show1");
+             $('nav ul .second').toggleClass("rotate");
+           });
+           $('.three-btn').click(function(){
+             $('nav ul .three-show').toggleClass("show2");
+             $('nav ul .three').toggleClass("rotate");
+           });
+            $('.four-btn').click(function(){
+             $('nav ul .four-show').toggleClass("show3");
+             $('nav ul .four').toggleClass("rotate");
+           });
+            $('.five-btn').click(function(){
+             $('nav ul .five-show').toggleClass("show4");
+             $('nav ul .five').toggleClass("rotate");
+           });
+            $('.six-btn').click(function(){
+             $('nav ul .six-show').toggleClass("show5");
+             $('nav ul .six').toggleClass("rotate");
+           });
+            $('.seven-btn').click(function(){
+             $('nav ul .seven-show').toggleClass("show6");
+             $('nav ul .seven').toggleClass("rotate");
+           });
+            $('.eight-btn').click(function(){
+             $('nav ul .eight-show').toggleClass("show7");
+             $('nav ul .eight').toggleClass("rotate");
+           });
+            $('.nine-btn').click(function(){
+             $('nav ul .nine-show').toggleClass("show8");
+             $('nav ul .nine').toggleClass("rotate");
+           });
+            $('.ten-btn').click(function(){
+             $('nav ul .ten-show').toggleClass("show9");
+             $('nav ul .ten').toggleClass("rotate");
+           });
+            $('.eleven-btn').click(function(){
+             $('nav ul .eleven-show').toggleClass("show10");
+             $('nav ul .eleven').toggleClass("rotate");
+           });
+            $('.twelve-btn').click(function(){
+             $('nav ul .twelve-show').toggleClass("show11");
+             $('nav ul .twelve').toggleClass("rotate");
+           });
+
+           $('.thirteen-btn').click(function(){
+             $('nav ul .thirteen-show').toggleClass("show12");
+             $('nav ul .thirteen').toggleClass("rotate");
+           });
+           $('nav ul li').click(function(){
+             $(this).addClass("active").siblings().removeClass("active");
+           });
+   
+</script>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/mens.css">
+
+<!-- menu -->
+ <link rel="stylesheet" href="./styles/menu.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<!-- menu -->
+   
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div id="mensdiv"></div>
+    <div id="footer"></div>
+  </body>
+</html>
+<script src="./scripts/Mens_Clothing_details.js"></script>
+<script src="./scripts/Mens.js"></script>
+<script type="module">
+  import navbar from "./components/navbar.js";
+  let nav = document.getElementById("navbar");
+  nav.innerHTML=navbar()
+
+  import footer from "./components/footer.js";
+  let foo = document.getElementById("footer");
+  foo.innerHTML=footer()
+
+  
+         $('#btn').click(function(){
+           $(this).toggleClass("click");
+           $('.sidebar').toggleClass("show");
+         });
+           $('.feat-btn').click(function(){
+             $('nav ul .feat-show').toggleClass("show");
+             $('nav ul .first').toggleClass("rotate");
+           });
+           $('.serv-btn').click(function(){
+             $('nav ul .serv-show').toggleClass("show1");
+             $('nav ul .second').toggleClass("rotate");
+           });
+           $('.three-btn').click(function(){
+             $('nav ul .three-show').toggleClass("show2");
+             $('nav ul .three').toggleClass("rotate");
+           });
+            $('.four-btn').click(function(){
+             $('nav ul .four-show').toggleClass("show3");
+             $('nav ul .four').toggleClass("rotate");
+           });
+            $('.five-btn').click(function(){
+             $('nav ul .five-show').toggleClass("show4");
+             $('nav ul .five').toggleClass("rotate");
+           });
+            $('.six-btn').click(function(){
+             $('nav ul .six-show').toggleClass("show5");
+             $('nav ul .six').toggleClass("rotate");
+           });
+            $('.seven-btn').click(function(){
+             $('nav ul .seven-show').toggleClass("show6");
+             $('nav ul .seven').toggleClass("rotate");
+           });
+            $('.eight-btn').click(function(){
+             $('nav ul .eight-show').toggleClass("show7");
+             $('nav ul .eight').toggleClass("rotate");
+           });
+            $('.nine-btn').click(function(){
+             $('nav ul .nine-show').toggleClass("show8");
+             $('nav ul .nine').toggleClass("rotate");
+           });
+            $('.ten-btn').click(function(){
+             $('nav ul .ten-show').toggleClass("show9");
+             $('nav ul .ten').toggleClass("rotate");
+           });
+            $('.eleven-btn').click(function(){
+             $('nav ul .eleven-show').toggleClass("show10");
+             $('nav ul .eleven').toggleClass("rotate");
+           });
+            $('.twelve-btn').click(function(){
+             $('nav ul .twelve-show').toggleClass("show11");
+             $('nav ul .twelve').toggleClass("rotate");
+           });
+
+           $('.thirteen-btn').click(function(){
+             $('nav ul .thirteen-show').toggleClass("show12");
+             $('nav ul .thirteen').toggleClass("rotate");
+           });
+           $('nav ul li').click(function(){
+             $(this).addClass("active").siblings().removeClass("active");
+           });
+</script>

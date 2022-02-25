@@ -1,0 +1,58 @@
+ body {
+      background-color: whitesmoke;
+    }
+    #mensdiv {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      align-content: center;
+      grid-row-gap: 25px;
+      margin:auto;
+      width: 90%;
+      margin-top: 135px;
+     
+    }
+    #mensdiv div {
+      /* border: 1px solid; */
+      width: 95%;
+      /* height: 460px; */
+      background-color: white;
+      border-radius: 5px;
+     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+    }
+    #mensdiv div img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      margin-top: 15px;
+    }
+    #mensdiv div p {
+      margin-top: 0px;
+      /* margin-left: 20px; */
+    }
+    #mensdiv div p,
+    h4,
+    h3,
+    button {
+      /* margin-top: -10px; */
+      margin-left: 20px;
+    }
+    #mensdiv button {
+      width: 100px;
+      height: 30px;
+      margin-top: 7px;
+      background-color: teal;
+      border: 0px;
+      font-weight: bold;
+      color: white;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+    #mensdiv div h4 {
+      margin-top:0px;
+    }
+      #mensdiv button:hover {
+cursor: pointer;
+background-color: rgb(169, 95, 238);
+    }

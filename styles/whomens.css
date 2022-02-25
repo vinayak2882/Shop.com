@@ -1,0 +1,57 @@
+  body {
+      background-color: whitesmoke;
+    }
+     #womensdiv {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      align-content: center;
+      grid-row-gap: 25px;
+      margin:auto;
+      width: 90%;
+      margin-top: 135px;
+     
+    }
+    #womensdiv div {
+      /* border: 1px solid; */
+      width: 95%;
+      /* height: 460px; */
+      background-color: white;
+      border-radius: 5px;
+   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+    #womensdiv div img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      margin-top: 15px;
+    }
+    #womensdiv div p {
+      margin-top: 0px;
+      /* margin-left: 20px; */
+    }
+    #womensdiv div p,
+    h4,
+    h3,
+    button {
+      margin-top: 13px;
+      margin-left: 20px;
+    }
+    #womensdiv button {
+      width: 100px;
+      height: 30px;
+      margin-top: 7px;
+      background-color: teal;
+      border: 0px;
+      font-weight: bold;
+      color: white;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+    #womensdiv div h4 {
+      margin-top: 0px;
+    }
+    #womensdiv button:hover {
+cursor: pointer;
+background-color: rgb(169, 95, 238);
+    }

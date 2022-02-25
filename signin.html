@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/signin.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+  
+<!-- menu -->
+ <link rel="stylesheet" href="./styles/menu.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<!-- menu -->
+</head>
+
+<body>
+    <div id="navbar" ></div>
+    <!-- <div id="body1"></div> -->
+
+    <div id="content">
+        <div id="right">
+            <img src="https://cdn.shopify.com/shopifycloud/arrive_website/assets/marketing/global/social-share-d3ff45b63100a1207bc4171baa2ac4bd1266b2f2b9d683432aedea54dfe1ff2b.jpg" alt="">
+        
+        </div>
+        <div id="left">
+            <div>
+                <form id="formlogin">
+        <h1>SIGN IN</h1>
+        <input id="email" type="text" placeholder="Enter Your Email" />
+        <input
+          id="password"
+          type="password"
+          placeholder="Enter Your Password"
+        />
+        
+        <input id="submit" type="submit" placeholder="CONTINUE" />
+      </form>
+             <br>
+                <p>--------------- or ----------------</p>
+                <br>
+               <a href="./signup.html"> <button id="logo">
+                    <div><img
+                            src="https://us.123rf.com/450wm/kornienko/kornienko1611/kornienko161100200/66047248-chisinau-moldova-november-16-2016-google-logo-on-pc-screen-google-it-is-the-largest-internet-search-.jpg?ver=6"
+                            alt=""> </div>
+                    <div id="gle">Sign in with Google</div>
+                </button></a>
+
+                <p>By signing in,you agree to the <span>Terms and Conditions</span></p>
+            </div>
+
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
+<script src="./scripts/signin.js"></script>
+
+<script type="module">
+
+    import navbar from "./components/navbar.js";
+  let nav = document.getElementById("navbar");
+  nav.innerHTML=navbar()
+
+ 
+  import footer from "./components/footer.js";
+    let foo = document.getElementById("footer");
+    foo.innerHTML=footer();
+    
+
+
+    
+         $('#btn').click(function(){
+           $(this).toggleClass("click");
+           $('.sidebar').toggleClass("show");
+         });
+           $('.feat-btn').click(function(){
+             $('nav ul .feat-show').toggleClass("show");
+             $('nav ul .first').toggleClass("rotate");
+           });
+           $('.serv-btn').click(function(){
+             $('nav ul .serv-show').toggleClass("show1");
+             $('nav ul .second').toggleClass("rotate");
+           });
+           $('.three-btn').click(function(){
+             $('nav ul .three-show').toggleClass("show2");
+             $('nav ul .three').toggleClass("rotate");
+           });
+            $('.four-btn').click(function(){
+             $('nav ul .four-show').toggleClass("show3");
+             $('nav ul .four').toggleClass("rotate");
+           });
+            $('.five-btn').click(function(){
+             $('nav ul .five-show').toggleClass("show4");
+             $('nav ul .five').toggleClass("rotate");
+           });
+            $('.six-btn').click(function(){
+             $('nav ul .six-show').toggleClass("show5");
+             $('nav ul .six').toggleClass("rotate");
+           });
+            $('.seven-btn').click(function(){
+             $('nav ul .seven-show').toggleClass("show6");
+             $('nav ul .seven').toggleClass("rotate");
+           });
+            $('.eight-btn').click(function(){
+             $('nav ul .eight-show').toggleClass("show7");
+             $('nav ul .eight').toggleClass("rotate");
+           });
+            $('.nine-btn').click(function(){
+             $('nav ul .nine-show').toggleClass("show8");
+             $('nav ul .nine').toggleClass("rotate");
+           });
+            $('.ten-btn').click(function(){
+             $('nav ul .ten-show').toggleClass("show9");
+             $('nav ul .ten').toggleClass("rotate");
+           });
+            $('.eleven-btn').click(function(){
+             $('nav ul .eleven-show').toggleClass("show10");
+             $('nav ul .eleven').toggleClass("rotate");
+           });
+            $('.twelve-btn').click(function(){
+             $('nav ul .twelve-show').toggleClass("show11");
+             $('nav ul .twelve').toggleClass("rotate");
+           });
+
+           $('.thirteen-btn').click(function(){
+             $('nav ul .thirteen-show').toggleClass("show12");
+             $('nav ul .thirteen').toggleClass("rotate");
+           });
+           $('nav ul li').click(function(){
+             $(this).addClass("active").siblings().removeClass("active");
+           });
+
+</script>
