@@ -12,7 +12,7 @@ console.log(email,password)
     var flag = false;
     for (var i = 0; i < reusedata.length; i++) {
       if (reusedata[i].email == email && reusedata[i].password == password) {
-         window.location.href="signup.html"
+         window.location.href="index.html"
         flag = true;
       }
     }
