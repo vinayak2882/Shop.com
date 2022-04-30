@@ -1,6 +1,6 @@
 # Shop.com
- Individual Project
-
+ This is my Individual Project
+Check the LIVE hosted website [here](https://shopcom001.netlify.app/) or check screenshots below.
 
 
 <p> Shop.com is an online Shopping website where you can order different categories of food effortlessly. You can filter the food items by category. You can add the food items in your cart and wishlist. Finally proceed to checkout to get your order delivered.<p/>
@@ -22,8 +22,8 @@ https://github.com/vinayak2882/Shop.com/
 
 
 
-#### Project Demo: 
-- **[Checkout The Live Project Demo](https://drive.google.com/file/d/1WrRkDqcwOL_QkhTTZRDpeN2G_WLTKrBy/view?usp=sharing)**
+<!-- #### Project Demo: 
+- **[Checkout The Live Project Demo](https://drive.google.com/file/d/1WrRkDqcwOL_QkhTTZRDpeN2G_WLTKrBy/view?usp=sharing)** -->
 
 
 
@@ -68,7 +68,8 @@ First you have to have to go to the signup page and create a new account. After 
 
 ## Home_Page
 
-![Screenshot (409)](https://user-images.githubusercontent.com/95854153/158667988-c352a2e0-c94e-4b34-9a9b-30d664a4a326.png)
+![shop com](https://user-images.githubusercontent.com/96100321/166095809-9f2f5809-0725-4f7f-8854-ded14f21f386.png)
+
 
 <!-- ## Products_Page
 
