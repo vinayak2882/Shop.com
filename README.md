@@ -1,5 +1,6 @@
 # Shop.com
- This is my Individual Project
+ <p>This is my Individual Project<p/>
+
 Check the LIVE hosted website [here](https://shopcom001.netlify.app/) or check screenshots below.
 
 
